@@ -17,7 +17,7 @@
 
 
   <!-- About Me -->
-  <section class="max-w-6xl grid grid-cols-2 mx-auto py-16 px-6 text-center gap-16">
+  <section class="max-w-6xl grid grid-cols-1 md:grid-cols-2 mx-auto py-16 px-6 text-center gap-16">
     <div class="transform -rotate-12 transition-transform duration-600 hover:rotate-0
                 p-4 shadow-lg border shadow-gray-700 bg-white
                 hover:shadow-amber-400 hover:border-amber-400 hover:shadow-2xl items-center rounded-lg">
@@ -58,7 +58,7 @@
       </div>
       <div class="p-4 bg-gray-300 border-2  border-gray-800 rounded-xl shadow
                 hover:scale-110 transition  hover:bg-orange-400">
-        <img src="images/logo-laravel-1024.png" alt="Logo Laravel" class="object-contain h-20 mx-auto scale-250">
+        <img src="images/logo-laravel-1024.png" alt="Logo Laravel" class="object-contain h-20 mx-auto scale-180 md:scale-250">
       </div>
       <div
         class="p-4 bg-gray-300 border-2  border-gray-800 rounded-xl shadow hover:scale-110  hover:bg-blue-900 transition">
@@ -66,7 +66,7 @@
       </div>
       <div
         class="p-4 bg-gray-300 border-2  border-gray-800 rounded-xl shadow hover:scale-110 hover:bg-blue-800 transition">
-        <img src="images/posstgress.png" alt="Logo Postgress" class="object-contain h-20 mx-auto scale-140">
+        <img src="images/posstgress.png" alt="Logo Postgress" class="object-contain h-20 mx-auto scale-110 md:scale-140">
       </div>
       <div
         class="p-4 bg-gray-300 border-2  border-gray-800 rounded-xl shadow hover:scale-110 hover:bg-black transition">
@@ -87,20 +87,40 @@
   <section class="max-w-5xl mx-auto py-12 px-6">
     <h2 class="text-2xl font-semibold text-center mb-8">Projects</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class="bg-white shadow rounded-xl overflow-hidden">
-        <img src="assets/project1.png" alt="Project 1" class="w-full h-48 object-cover">
+      <div class="bg-white shadow rounded-xl overflow-hidden  border-2 border-gray-800">
+        <img src="images/rh.png" alt="Project 1" class="w-full h-48 object-cover border-b-2 border-gray-400">
         <div class="p-4">
-          <h3 class="font-semibold">Sistema de Inventario</h3>
-          <p class="text-gray-600">App en Angular + NestJS para gestión de inventario.</p>
-          <a href="#" class="text-blue-600 hover:underline">Ver en GitHub</a>
+          <h3 class="font-semibold">Sistema RH</h3>
+          <p class="text-gray-600 text-sm">
+            App en Angular 13 + larave 8  para gestión de recursos humanos (ERP).
+            <br>
+            Desarrolle funcionalidades como:
+            <br>
+              Integracion con dispositivos hikvision para lecturar de huellas digitales con la finalidad de gestionar el
+              registro de trabajadores y control de acceso a las instalaciones. Tambien el modulo de asistencias para 'el registro y seguimiento de las asistencias de los
+              empleados, incluyendo la integración con dispositivos biométricos para una mayor precisión,
+              tambien la generacion de reportes y acciones crud para los registros de asistencias y
+              reporte de novedades atravez de tablas dinamicas usando ag-grid.
+          </p>
+          <!-- <a href="#" class="text-blue-600 hover:underline">Ver en GitHub</a> -->
         </div>
       </div>
-      <div class="bg-white shadow rounded-xl overflow-hidden">
-        <img src="assets/project2.png" alt="Project 2" class="w-full h-48 object-cover">
+      <div class="bg-white border-2 border-gray-800 shadow rounded-xl overflow-hidden">
+        <img src="images/inventario.png" alt="Project 2" class="w-full h-48 object-cover border-b-2 border-gray-400">
         <div class="p-4">
-          <h3 class="font-semibold">Gestión de Asistencias</h3>
-          <p class="text-gray-600">API en Laravel + frontend en Angular.</p>
-          <a href="#" class="text-blue-600 hover:underline">Ver en GitHub</a>
+          <h3 class="font-semibold">Sistema Inventarios</h3>
+          <p class="text-gray-600 text-sm">App en Angular 16+ y Api Nestjs .
+            <br>
+            Desarrollo desde 0 de una aplicacion para la gestion de inventarios,
+            con funcionalidades como acciones crud para articulos, categorias,
+            proveedores, clientes, facturas, gestion de ciclos de mantenimientos.
+            <br>
+            Implementacion de autenticacion y autorizacion.
+            <br>
+            Uso de ag-grid para tablas dinamicas y reportes en pdf.
+            <br>
+            Sistema de Tickets para soporte tecnico.
+          </p>
         </div>
       </div>
     </div>
