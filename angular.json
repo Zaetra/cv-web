@@ -27,6 +27,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/cv-web/",
               "budgets": [
                 {
                   "type": "initial",
